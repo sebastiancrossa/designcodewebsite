@@ -51,3 +51,18 @@ a {
   padding: 150px 50px;
   text-align: center;
 }
+
+@media (max-width: 640px) {
+  .hero-group {
+    padding: 100px 20px;
+  }
+
+  .hero h1 {
+    font-size: 40px;
+  }
+
+  .hero p {
+    font-size: 24px;
+  }
+
+}
