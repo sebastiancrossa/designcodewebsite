@@ -19,6 +19,8 @@ a {
   height: 920px;
   background-size: cover;
   background-position: center;
+
+  position: relative;
 }
 
 .hero h1 {
@@ -95,4 +97,10 @@ a {
     opacity: 1;
     transform: translateY(0);
   }
+}
+
+.hero svg {
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }
