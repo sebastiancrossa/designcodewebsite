@@ -54,6 +54,22 @@ const IndexPage = () => (
 	  			title="ARKit 2"
 	  			text="10 sections"
 	  			image={require('../img/wallpaper4.jpg')} />
+	  		<Card 
+	  			title="Animate in Principle"
+	  			text="5 sections"
+	  			image={require('../img/wallpaper.jpg')} />
+	  		<Card 
+	  			title="Video Editing"
+	  			text="4 sections"
+	  			image={require('../img/wallpaper2.jpg')} />
+	  		<Card 
+	  			title="Motion Design"
+	  			text="8 sections"
+	  			image={require('../img/wallpaper3.jpg')} />
+	  		<Card 
+	  			title="SpriteKit Game"
+	  			text="9 sections"
+	  			image={require('../img/wallpaper4.jpg')} />
 	  	</div>
   	</div>
   </div>
