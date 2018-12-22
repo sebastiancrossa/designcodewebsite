@@ -43,7 +43,7 @@ a {
   line-height: 1.5;
   opacity: 0;
   animation: heroAnimation 3s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
-  animation-delay: 1s;
+  animation-delay: 1.5s;
 }
 
 .hero a {
@@ -56,6 +56,10 @@ a {
   border: 1px solid rgba(255, 255, 255, 0.25);
   border-radius: 20px;
   transform: 1s cubic-bezier(0.2, 0.8, 0.2, 1);
+
+  opacity: 0;
+  animation: heroAnimation 3s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
+  animation-delay: 2.5s;
 }
 
 .hero a:hover {
